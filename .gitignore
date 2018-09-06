@@ -1,0 +1,6 @@
+#folder logs
+logs/
+#ignore .txt
+docs/*.txt
+#.sass-cache
+.sass-cache/

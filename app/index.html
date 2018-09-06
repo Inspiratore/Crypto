@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Web-site dedicated to cryptocurrency exchange">
+
+		<title>Crypto Exchange</title>
+
+		<!-- Custom styles for this template -->
+		<link type="text/css" rel="stylesheet" href="css/libs.min.css">
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<style>body{opacity:0; overflow-x: hidden;} html{background-color: #fff;}</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+
+<!--===================  HEADER ======================-->
+
+			<div class="header top">
+				<div class="row justify-content-center">
+					<div class="col-md-auto currency_selection">
+						<p class="block1"><span>Select currency to exchange: </span></p>
+						<form id="national_currency" method="">
+							<div class="all_currencies">
+								<select name="nation_currency" id="nat_curr">
+									<option class="currency" value="usd">USD</option>
+									<option class="currency" value="eur">EUR</option>
+									<option class="currency" value="rub">RUB</option>
+									<option class="currency" value="gbp">GBP</option>
+								</select>
+								<img src="img/arrow_down.png" alt="Arrow-down"/>
+							</div>
+							<!-- /.all_currencies -->
+						</form>
+					</div>
+					<!-- /.col-md-auto -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.top -->
+
+
+<!-- =============   Cryptocurrencies   ============= -->
+
+			<div class="row justify-content-center">
+				<div class="col-md-auto cryptocurrencies" id="ethereum">
+					<h2>Ethereum</h2>
+					<img src="img/ethereum.png" alt="Ethereum">
+					<div class="coin_shadow"></div>
+					<h3>Price: <output class="price"></output></h3>
+					<!-- <p></p> -->
+					<p class="first">
+						Percent change 
+						<span class="switch-btn switch-on b1">
+							<img src="img/switch.png" alt="percent switcher">
+						</span>
+					</p>
+					<p>Hour change <output class="hour_change"></output>
+					</p>
+					<p>Day change <output class="day_change"></output>
+					</p>
+					<p>Week change <output class="week_change"></output>
+					</p>
+					<p> Month change <output class="month_change"></output>
+					</p>
+				</div>
+				<!-- col-md-auto cryptocurrencies .ethereum_crypto -->
+
+				<div class="col-md-auto cryptocurrencies" id="litecoin">
+					<h2>Litecoin</h2>
+					<img src="img/litecoin.png" alt="Litecoin">
+					<div class="coin_shadow"></div>
+					<h3>Price: <output class="price"></output></h3>
+					<p class="first">
+						Percent change 
+						<span class="switch-btn switch-on b2">
+							<img src="img/switch.png" alt="percent switcher">
+						</span>
+					</p>
+					<p>Hour change <output class="hour_change"></output>
+					</p>
+					<p>Day change <output class="day_change"></output>
+					</p>
+					<p>Week change <output class="week_change"></output>
+					</p>
+					<p> Month change <output class="month_change"></output>
+					</p>
+				</div>
+				<!-- col-md-auto cryptocurrencies .litecoin_crypto -->
+
+				<div class="col-md-auto cryptocurrencies" id="bitcoin">
+					<h2>Bitcoin</h2>
+					<img src="img/bitcoin2.png" alt="Bitcoin">
+					<div class="coin_shadow"></div>
+					<h3>Price: <output class="price"></output></h3>
+					<p class="first">
+						Percent change 
+						<span class="switch-btn switch-on b3">
+							<img src="img/switch.png" alt="percent switcher">
+						</span>
+					</p>
+					<p>Hour change <output class="hour_change"></output>
+					</p>
+					<p>Day change <output class="day_change"></output>
+					</p>
+					<p>Week change <output class="week_change"></output>
+					</p>
+					<p> Month change <output class="month_change"></output>
+					</p>
+				</div>
+				<!-- /.col-md-auto .cryptocurrencies _crypto -->
+			</div>
+			<!-- </.row .justify-content-around> -->
+		</div>
+		<!-- /.container-fluid -->
+	
+
+		<!-- Link to Css File
+		================================================== -->
+		<link type="text/css" rel="stylesheet" href="css/main.css"/>
+
+		<!-- Bootstrap core JavaScript ================================================== -->
+		<!-- <script -->
+		    <!-- src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+		    crossorigin="anonymous"></script> -->
+		<script>window.jQuery || document.write('<script src="js/libs.min.js"><\/script>')</script>
+		<script 
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="js/common.js"></script>
+	</body>
+</html>
