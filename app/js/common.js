@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     /*===================  Ethereum  =====================*/  
     
-    function checkLit(){
+    function checkEth(){
         $.ajax({
             type: 'GET',
             url: $('#nat_curr option:selected').val(),         
@@ -63,9 +63,9 @@ $(document).ready(function() {
     setInterval(checkEth, 3241);
 
 
-        /*===================  Ethereum  =====================*/  
+        /*===================  Litcoin  =====================*/  
     
-    function checkEth(){
+    function checkLit(){
         $.ajax({
             type: 'GET',
             url: $('#nat_curr option:selected').val(),         
